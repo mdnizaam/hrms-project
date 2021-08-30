@@ -1,0 +1,49 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "fullname": "Shivam Sharma",
+      "email": "Shivam@gmail.com",
+      "address": "Bhopal",
+      "joiningDate": 23072021,
+      "leaveDate": 20022021,
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "fullname": "Shivam Sharma",
+      "email": "Shivam@gmail.com",
+      "address": "Bhopal",
+      "joiningDate": 23072021,
+      "leaveDate": 20022021,
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "fullname": "Shivam Sharma",
+      "email": "Shivam@gmail.com",
+      "address": "Bhopal",
+      "joiningDate": 23072021,
+      "leaveDate": 20022021,
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "fullname": "Shivam Sharma",
+      "email": "Shivam@gmail.com",
+      "address": "Bhopal",
+      "joiningDate": 23072021,
+      "leaveDate": 20022021,
+      "status": "Active"
+    },
+    {
+      "fullname": "Mohammed Nizam",
+      "email": "nizam@gmail.com",
+      "address": "jabalpur",
+      "joiningDate": "23030232",
+      "LeaveDate": "22324242",
+      "status": "Active",
+      "id": 9
+    }
+  ]
+}
