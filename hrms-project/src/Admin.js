@@ -372,18 +372,15 @@ function Admin() {
                                                             </thead>
                                                             <tbody>
 
-                                                                {/* 
-                                                                { 
-                                                                    employee.map((emp,i)=>{
-                                                                        return (
-                                                                            <tr>
-                                                                    <td>{emp.name}</td>
-                                                                    <td>{emp.email}</td>
-                                                                    <td>{emp.address}</td>
-                                                                    <td>{emp.joiningDate}</td>
-                                                                    <td>{emp.LeaveDate}</td>
-                                                                    <td>{emp.status}</td>
-                                                                    <td><NavLink className="btn btn-primary me-2 " to={`/maindashboard/${emp.id}`}>
+
+                                                                <tr>
+                                                                    <td>Md Nizam</td>
+                                                                    <td>ddinnizamu810@gmail.com</td>
+                                                                    <td>Bhopal</td>
+                                                                    <td>xyz</td>
+                                                                    <td>xyz</td>
+                                                                    <td>xyz</td>
+                                                                    <td><NavLink className="btn btn-primary me-2 " to="">
                                                                         View
                                                                     </NavLink>
                                                                         <NavLink
@@ -391,27 +388,54 @@ function Admin() {
                                                                             Edit
                                                                         </NavLink>
                                                                         <button
-                                                                            className="btn btn-danger me-2"  onClick={() => handleDelete(emp.id)}>
+                                                                            className="btn btn-danger me-2"  >
                                                                             Delete
                                                                         </button>
 
 
                                                                     </td>
-                                                                </tr>
-                                                                           
 
-                                                                        );
-                                                                    })
-                                                                } */}
+                                                                    {/* <td><NavLink className="btn btn-primary me-2 " to={`/maindashboard/${emp.id}`}>
+                                                                        View
+                                                                    </NavLink>
+                                                                        <NavLink
+                                                                            className="btn btn-primary me-2" to="/editemployee">
+                                                                            Edit
+                                                                        </NavLink>
+                                                                        <button
+                                                                            className="btn btn-danger me-2" onClick={() => handleDelete(emp.id)}>
+                                                                            Delete
+                                                                        </button>
+
+
+                                                                    </td> */}
+                                                                </tr>
+
+
 
 
                                                                 <tr>
-                                                                    <td>{user.name}</td>
-                                                                    <td>{user.email}</td>
-                                                                    <td>nizam</td>
-                                                                    <td>nizam</td>
-                                                                    <td>nizam</td>
-                                                                    <td>nizam</td>
+                                                                    <td>Md Nizam</td>
+                                                                    <td>nizam@gmail.com</td>
+                                                                    <td>Bhopal</td>
+                                                                    <td>xyz</td>
+                                                                    <td>xyz</td>
+                                                                    <td>xyz</td>
+                                                                    <td><NavLink className="btn btn-primary me-2 " to="">
+                                                                        View
+                                                                    </NavLink>
+                                                                        <NavLink
+                                                                            className="btn btn-primary me-2" to="/editemployee">
+                                                                            Edit
+                                                                        </NavLink>
+                                                                        <button
+                                                                            className="btn btn-danger me-2"  >
+                                                                            Delete
+                                                                        </button>
+
+
+                                                                    </td>
+
                                                                 </tr>
 
 
